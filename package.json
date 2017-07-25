@@ -1,0 +1,26 @@
+{
+  "name": "bulma.styl-timeline",
+  "version": "1.0.0",
+  "homepage": "http://github.com/Log1x/bulma.styl-timeline",
+  "author": "Brandon Nifong <brandon@tendency.me> (https://log1x.com)",
+  "contributors": [
+    "Wikiki (https://github.com/Wikiki)"
+  ],
+  "description": "Timeline extension for Bulma.styl",
+  "main": "timeline.styl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Log1x/bulma.styl-timeline.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "stylus",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/Log1x/bulma.styl-timeline/issues"
+  }
+}
