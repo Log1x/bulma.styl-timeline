@@ -1,76 +1,36 @@
-# bulma-timeline
-This is a fork for the Bulma extension to display a timeline for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl).
+# Bulma.styl Timeline
 
-Preview
----
-![Timeline Component](https://img15.hostingpics.net/pics/440691ScreenShot20170719at120241.png)
+[![npm](https://img.shields.io/npm/v/bulma.styl-timeline.svg)](https://www.npmjs.com/package/bulma.styl-timeline)
+[![npm](https://img.shields.io/npm/dm/bulma.styl-timeline.svg)](https://www.npmjs.com/package/bulma.styl-timeline)
 
-Usage
----
+This is a 1:1 Stylus translation of the [bulma-timeline](https://github.com/Wikiki/bulma-timeline) extension by [Wikiki](https://github.com/Wikiki).
+
+This is generally for use with [Bulma.styl](https://github.com/log1x/bulma.styl). 
+
+## Installation 
+
+### Install from npm
+
+```sh
+$ npm install bulma.styl-timeline
+```
+
+### Install from Yarn 
+
+```sh
+$ yarn add bulma.styl-timeline
+```
+
+## Usage 
 
 ```
-<div class="timeline">
-  <div class="timeline-item" id="timeline-example-1">
-    <div class="timeline-left icon-lg">
-      <a href="#timeline-example-1" class="timeline-icon"></a>
-    </div>
-    <div class="timeline-content">
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <div>
-              <p class="heading">January 2017</p>
-              <p>Timeline content - Can include any HTML element</p>
-            </div>
-          </div>
-          <div class="level-right">
-            <p class="level-item"><button class="button is-primary is-small">View</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="timeline-item" id="timeline-example-2">
-    <div class="timeline-left">
-      <a href="#timeline-example-2" class="timeline-icon icon-lg">
-          <i class="icon fa fa-check"></i>
-        </a>
-    </div>
-    <div class="timeline-content">
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <div>
-              <p class="heading">February 2017</p>
-              <p>Timeline content - Can include any HTML element</p>
-            </div>
-          </div>
-          <div class="level-right">
-            <p class="level-item"><button class="button is-primary is-small">View</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="timeline-item" id="timeline-example-3">
-    <div class="timeline-left">
-      <a href="#timeline-example-3" class="timeline-icon icon-lg">
-          <i class="icon fa fa-check"></i>
-        </a>
-    </div>
-    <div class="timeline-content">
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <div>
-              <p class="heading">March 2017</p>
-              <p>Timeline content - Can include any HTML element</p>
-            </div>
-          </div>
-          <div class="level-right">
-            <p class="level-item"><button class="button is-primary is-small">View</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+@require "~bulma.styl-timeline/timeline"
+```
+
+## Documentation 
+
+Documentation can be found at Wikiki's [extension documentation](https://wikiki.github.io/bulma-extensions/timeline).
+
+## License
+
+Released under the MIT license.
